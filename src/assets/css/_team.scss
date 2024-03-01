@@ -1,0 +1,19 @@
+.image{
+    text-align: center;
+    font-size: 1.1em;
+    cursor: pointer;
+    
+    .pic{
+        @include flex-center;
+        align-items: center;
+
+        img{
+            width: 70%;
+            height: 35vh;
+            border-radius: 16px;
+        }
+    }
+    span{
+        font-weight: bold;
+    }
+}

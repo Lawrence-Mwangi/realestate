@@ -1,0 +1,19 @@
+//global styles 
+@import 'global';
+@import 'mixins';
+
+
+//partials
+@import 'navbar';
+@import 'team';
+@import 'home';
+@import 'footer';
+
+
+//main styles
+@import 'hero';
+@import 'about';
+@import 'houses';
+@import 'details';
+@import 'service';
+@import 'contact';
