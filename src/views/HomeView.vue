@@ -9,13 +9,14 @@ import Contact from '@/views/ContactView.vue'
 <template>
     <Navbar/>
 
-    <section class="main_container" id="Hero">
+    <section class="hero" id="Hero">
         <Hero/>
     </section>
 
     <section class="main_container" id="Service">
         <Service/>
     </section>
+    
     <section class="main_container" id="Contact">
         <Contact/>
     </section>

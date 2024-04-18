@@ -5,6 +5,10 @@
     padding:1em 0.5em;
     // *{border:1px solid green}
 
+    h3{
+        color:$accent-color;
+    }
+
     .footer_content{
         padding:0.5em 0.5em;
             img{
@@ -55,6 +59,8 @@
     padding:0.5em 0.9em;
     font-size: 1.1em;
     text-align: center;
+    background: $secondary-color;
+    color:$primary-color;
 }
 
 @media screen and (width <= 726px) {

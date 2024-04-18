@@ -1,10 +1,10 @@
 .hero_container{
     @include grid(2);
     height: 88vh;
-    // *{border:1px solid green}
 
     .hero_content{
-        padding: 0.5em 0.9em;
+        @include flex_center;
+        padding:0.9em;
 
         h1{
             font-size: 2.3em;
@@ -38,12 +38,12 @@
 
 @media screen and (width <= 726px) {
     .hero_container{
-        background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/house.jpg);
+        background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)),url(../images/house.jpg);
         background-repeat: no-repeat;
         background-position:center;
         background-size:cover;
-        border-radius: 20px;
         color:$primary-color;
+        background-attachment: fixed;
         height: 62vh;
 
         .hero_content{

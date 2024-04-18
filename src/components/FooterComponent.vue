@@ -12,15 +12,13 @@
             <p>Kiambu town, Kenya</p>
         </div>
         <div class="footer_links">
-            <h4>Links</h4>
+            <h3>Links</h3>
             <router-link :to="{ name:'home' }">Home</router-link>
             <router-link :to="{ name:'about' }">About</router-link>
             <router-link :to="{ name:'houses' }">Houses</router-link>
-            <a href="#Service">Services</a>
-            <a href="#Contact">Contact</a>
         </div>
         <div class="social_media">
-            <h4>Social Media</h4>
+            <h3>Social Media</h3>
             <div class="icon_container">
                 <div class="icons">
                     <a href="https://github.com/lawrencemwangi" target="_blank">

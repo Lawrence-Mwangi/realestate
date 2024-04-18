@@ -1,4 +1,14 @@
 .service_container{
     @include grid(3);
-    
+    padding:0.9em 0;
+
+    .service_content{
+        border: 1px solid $secondary-color;
+        padding: 0.5em 0.9em;
+        border-radius: 16px;
+
+        h3,p{
+            padding: 0.3em 0;
+        }
+    }    
 }
